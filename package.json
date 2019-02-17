@@ -1,6 +1,6 @@
 {
   "name": "react-greeting",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "This is a simple component only just display 'Hello, foo'",
   "keywords": ["react", "greeting", "hello, world"],
   "license": "MIT",
@@ -22,7 +22,7 @@
     "test:watch": "jest --watch",
     "all-check": "yarn test && yarn lint && yarn tsc",
     "dev": "webpack-dev-server --config webpack.config.js --progress --colors --open --mode=development",
-    "build": "webpack --progress --colors --mode=production",
+    "build": "rimraf demo_dist & webpack --progress --colors --mode=production",
     "rollup": "rimraf dist & rollup -c"
   },
   "devDependencies": {
