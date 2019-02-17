@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "target": "ESNEXT",
+    "module": "ESNext",
+    "jsx": "react",
+    "declaration": true,
+    "sourceMap": true,
+    "noEmit": true,
+    "removeComments": true,
+
+    "strict": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedParameters": true,
+    "noUnusedLocals": true,
+
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+  },
+  "include": ["lib"],
+  "exclude": ["node_modules", "dist", "**/*.test.*"]
+}
