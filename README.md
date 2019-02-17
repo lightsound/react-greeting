@@ -1,4 +1,4 @@
-# React Greeting
+# React Greeting [![npm version](https://badge.fury.io/js/react-greeting.svg)](https://badge.fury.io/js/react-greeting)
 
 This is a simple component only just display "Hello, foo".
 
