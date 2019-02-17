@@ -13,7 +13,7 @@ yarn add react-greeting
 ```javascript
 import React from "react";
 import ReactDOM from "react-dom";
-import Greeting from "../dist";
+import Greeting from "react-greeting";
 
 ReactDOM.render(
   <Greeting text="React" />,
